@@ -1,1 +1,209 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; frame-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>Rage room.</title><style>html,body,iframe{margin:0;width:100%;height:100%;border:0;display:block}</style></head><body><iframe title="Rage room." sandbox="allow-scripts" referrerpolicy="no-referrer" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27;; style-src &#x27;unsafe-inline&#x27;; connect-src &#x27;none&#x27;; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;style&gt;:root{--bg:#21171b;--fg:#ff8b7b}*{box-sizing:border-box}body{margin:0;padding:8vh 7vw;font:20px/1.6 Georgia,serif;background:var(--bg);color:var(--fg)}main{max-width:800px;margin:auto}h1{font-size:clamp(45px,9vw,90px);line-height:1.1}button,textarea{font:inherit;padding:14px;border:1px solid currentColor;border-radius:8px}button{background:transparent;color:inherit;cursor:pointer;margin:12px 8px 12px 0}textarea{width:100%;min-height:120px;background:#ffffffbb;color:#222}small{display:block;margin-top:50px;font:14px/1.6 system-ui}#result p{padding:18px;border-bottom:1px solid currentColor}&lt;/style&gt;&lt;main&gt;&lt;h1&gt;Rage room.&lt;/h1&gt;&lt;p&gt;Some words are for expressing, not sending.&lt;/p&gt;&lt;label for=&quot;text&quot;&gt;Write an unsent message&lt;/label&gt;&lt;textarea id=&quot;text&quot;&gt;&lt;/textarea&gt;&lt;button id=&quot;go&quot;&gt;Shred the message&lt;/button&gt;&lt;button id=&quot;smash&quot;&gt;Smash a button&lt;/button&gt;&lt;div id=&quot;result&quot; role=&quot;status&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;small&gt;Standalone art project, not mental-health care. Your writing stays in this page&#x27;s temporary memory and disappears when you reload or close it. No shared storage, uploads, or links to other pages.&lt;/small&gt;&lt;/main&gt;&lt;script&gt;const go=document.getElementById(&#x27;go&#x27;),reset=document.getElementById(&#x27;reset&#x27;),text=document.getElementById(&#x27;text&#x27;),result=document.getElementById(&#x27;result&#x27;),smash=document.getElementById(&#x27;smash&#x27;),choices=document.getElementById(&#x27;choices&#x27;);let n=0;go.onclick=()=&gt;{text.value=&#x27;&#x27;;result.textContent=&#x27;Gone. Nothing was sent.&#x27;};smash.onclick=()=&gt;{n++;result.textContent=&#x27;▧ ▪ ▫ ▴ ▪ ▧ — &#x27;+n+&#x27; buttons broken. You can pause whenever you want.&#x27;}&lt;/script&gt;&lt;/html&gt;"></iframe></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'none';
+      script-src 'unsafe-inline';
+      frame-src 'self';
+      style-src 'unsafe-inline';
+      connect-src 'none';
+      object-src 'none';
+      base-uri 'none';
+      form-action 'none';
+    "
+  >
+
+  <title>Rage room.</title>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <iframe
+    title="Rage room."
+    sandbox="allow-scripts"
+    referrerpolicy="no-referrer"
+    srcdoc='
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src &#39;none&#39;;
+      script-src &#39;unsafe-inline&#39;;
+      style-src &#39;unsafe-inline&#39;;
+      connect-src &#39;none&#39;;
+      frame-src &#39;none&#39;;
+      object-src &#39;none&#39;;
+      base-uri &#39;none&#39;;
+      form-action &#39;none&#39;;
+    "
+  >
+
+  <title>Rage room.</title>
+
+  <style>
+    :root {
+      --bg: #21171b;
+      --fg: #ff8b7b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 8vh 7vw;
+      font: 20px/1.6 Georgia, serif;
+      background: var(--bg);
+      color: var(--fg);
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: clamp(45px, 9vw, 90px);
+      line-height: 1.1;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    button,
+    textarea {
+      font: inherit;
+      padding: 14px;
+      border: 1px solid currentColor;
+      border-radius: 8px;
+    }
+
+    button {
+      background: transparent;
+      color: inherit;
+      cursor: pointer;
+      margin: 12px 8px 12px 0;
+    }
+
+    textarea {
+      display: block;
+      width: 100%;
+      min-height: 160px;
+      resize: vertical;
+      background: #ffffffbb;
+      color: #222;
+    }
+
+    button:focus-visible,
+    textarea:focus-visible {
+      outline: 3px solid var(--fg);
+      outline-offset: 4px;
+    }
+
+    #result:not(:empty) {
+      padding: 18px;
+      border-bottom: 1px solid currentColor;
+    }
+
+    small {
+      display: block;
+      margin-top: 50px;
+      font: 14px/1.6 system-ui, sans-serif;
+    }
+
+    .clue {
+      color: var(--bg);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Rage room.</h1>
+    <p>Some words are for expressing, not sending.</p>
+    <section class="clue">
+      <h2>T=B</h2>
+      <p>tsjysafafy.zled</p>
+    </section>
+    <label for="text">Write an unsent message</label>
+    <textarea
+      id="text"
+      autocomplete="off"
+      spellcheck="false"
+    ></textarea>
+
+    <button id="go" type="button">Shred the message</button>
+    <button id="smash" type="button">Smash a button</button>
+
+    <div id="result" role="status" aria-live="polite"></div>
+
+    <small>
+      Standalone art project, not mental-health care.
+      This page does not save or upload your writing.
+      Shredding clears the text box; it is not secure erasure.
+      Browser features may retain or restore entered text.
+      No shared storage, uploads, or links to other pages.
+    </small>
+
+  </main>
+
+  <script>
+    const go = document.getElementById("go");
+    const text = document.getElementById("text");
+    const result = document.getElementById("result");
+    const smash = document.getElementById("smash");
+
+    let n = 0;
+
+    go.addEventListener("click", () => {
+      text.value = "";
+      result.textContent = "Message cleared. Nothing was sent.";
+    });
+
+    smash.addEventListener("click", () => {
+      n += 1;
+
+      const count = n === 1
+        ? "1 button broken."
+        : n + " buttons broken.";
+
+      result.textContent =
+        "▧ ▪ ▫ ▴ ▪ ▧ — " +
+        count +
+        " You can pause whenever you want.";
+    });
+  </script>
+</body>
+</html>
+    '
+  ></iframe>
+</body>
+</html>
